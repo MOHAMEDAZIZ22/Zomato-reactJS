@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-hot-pot-gourmet-food-poster-picture-image_1025936.jpg); */
+}
+body{
+    /* background-color: red; */
+    /* background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-hot-pot-gourmet-food-poster-picture-image_1025936.jpg); */
+    /* background-color: rgb(181, 18, 18); */
+    /* background: linear-gradient(100deg, aqua, green, aqua, greenyellow);
+    background-size: 400% 400%;
+    height: 100vh;
+    animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    } */
+}
+.signupContainer{
+    background-image: url(https://images.vexels.com/media/users/3/173778/raw/21db866c2086a86c5ec0f55b70269fa9-best-bbq-food-background-design.jpg);
+    /* background:linear-gradient(100deg, aqua , green, aqua , green); */
+    /* border: solid 1px #5D69BE; */
+
+    /* background: linear-gradient(100deg, aqua, green, aqua, greenyellow); */
+    background-size: 400% 400%;
+    /* height: 100vh; */
+    animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
+} 
+
+.signForm{ 
+    background-color: white;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+}
+.signTotal img{
+    width: 400px;
+    border-radius: 15px 0px 0px 15px;
+}
+.signupContainer .signTotal{
+    display: flex;
+    width: 800px;
+    margin: 5% auto; 
+    /* box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3); */
+    border-radius: 15px;
+}
+.signForm h1{
+    text-align: center;
+    margin: 50px 0;
+}
+.signForm div p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.signForm input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    margin: 10px 12%;
+    font-size: 20px;    
+}
+.signForm label{
+    margin-left: 12%;
+}
+.signForm input:focus{
+    border-bottom: 2px solid;
+}
+.signForm #signCheck{
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 30px;
+
+}
+.signForm .checkLabel{
+    margin-left: -3%;
+
+}
+.signForm button{
+
+    background: linear-gradient(100deg, red, orange, yellow, green, blue, indigo, gold);
+    background-size: 400% 400%;
+    height: 100vh;
+    animation: gradient 2s ease infinite;
+    width: 300px;
+    height: 50px;
+    margin: auto auto 20px 12%;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    /* background:linear-gradient(to right, blue,violet); */
+    border: none;
+    cursor:not-allowed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
+  
+}

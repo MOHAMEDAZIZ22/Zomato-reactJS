@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: cover; */
+}
+.container{
+    /* background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-hot-pot-gourmet-food-poster-picture-image_1025936.jpg); */
+}
+
+.form{
+
+    border-radius: 20px;
+    width: 400px;
+    margin: 6% auto 70px auto;
+    border: solid 1px white;
+}
+.form h1{
+    color: yellow;
+    margin: 50px auto 50px auto;
+    text-align: center;
+}
+.form input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px solid gray;
+    outline: none;
+    margin: 10px 12%;
+    
+}
+.form label{
+    color: yellow;
+    margin-left: 12%;
+}
+input:focus{
+    border-bottom: 2px solid;
+}
+.form p{
+    margin-left: 60%;
+    
+}
+.form button{
+    /* width: 50px; */
+    /* height: 20px; */
+    /* padding: 10px; */
+    color: white;
+    border-radius: 20px;
+    margin: 50px auto auto 12%;
+    cursor: wait;
+    background: linear-gradient(100deg, red, orange, yellow, green, blue, indigo, gold);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+  
+    height: 50px;
+    margin: auto auto 20px 12%;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor:not-allowed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
+  
+}
+.form .signtext{
+    color: yellow;
+    margin: 40px auto auto 35%;
+}
+.form .signup{
+    color: yellow;
+
+    margin: 30px auto 30px 40%;
+   
+}
